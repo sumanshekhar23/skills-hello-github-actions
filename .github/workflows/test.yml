@@ -1,0 +1,13 @@
+name: test
+on: 
+  push:
+jobs:
+  first:
+    runs-on: ubuntu-latest
+    steps:
+      - name: fist
+        run: |
+          du -sh
+          echo "name" > file.txt
+          fil
+    
